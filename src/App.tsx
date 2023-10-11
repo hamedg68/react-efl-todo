@@ -1,4 +1,4 @@
-import { AddTodo } from "./components/add-todo/add-todo";
+import { AddTodo } from "./components/add-todo";
 import { useObservable } from "@ngneat/react-rxjs";
 import {
   addTodo,
@@ -6,9 +6,9 @@ import {
   visibleTodos$,
   updateTodoCompleted,
   updateTodosFilter,
-} from "./components/state/todos.repository";
-import { TodoItem } from "./components/todo/todo";
-import { Filters } from "./components/filters/filters";
+} from "./components/todos.repository";
+import { TodoItem } from "./components/todo";
+import { Filters } from "./components/filters";
 
 function Todos() {
   const [todos] = useObservable(visibleTodos$);

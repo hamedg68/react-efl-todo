@@ -1,5 +1,5 @@
 import React from 'react';
-import { TodosProps } from '../state/todos.repository';
+import { TodosProps } from './todos.repository';
 
 interface FilterProps {
   id: TodosProps['filter'];

@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './add-todo.scss';
 
 export interface AddTodoProps {
   onAdd(text: string): void;

@@ -1,4 +1,4 @@
-import { Todo } from '../state/todos.repository';
+import { Todo } from './todos.repository';
 import React from 'react';
 
 export interface TodoProps extends Todo {
